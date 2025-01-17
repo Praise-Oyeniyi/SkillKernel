@@ -72,11 +72,9 @@ const Explore = ({first, second}) => {
             </div>
             
             <div
-            ref={wrapperRef}
-            className="overflow-x-hidden carousel-box"
-            onScroll={checkScroll}
+            className=" carousel-box"
             >
-            <div className="row flex-nowrap column-gap-4 py-4 align-items-stretch">
+            <div className="row flex-nowrap column-gap-3 py-4 align-items-stretch">
                 {first.map((e, index)=>(
                     <Flashcards title={e.title} description={e.description} style={e.style}/>
                 ))}

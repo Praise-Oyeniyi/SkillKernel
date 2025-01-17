@@ -31,7 +31,7 @@ const ProfessionalCert = () => {
     <div className='py-3'>
         <div className='container'>
             <div className='px-0'>
-                <h4 className='fs-2 fw-bold'>How a Professional Certificate Works</h4>
+                <h4 className='fs-2 fw-bold '>How a Professional Certificate Works</h4>
                 <p className='fs-6'>Upskill, reskill or pursue a passion with short courses across every subject, whether you are a beginner or already an expert</p>
             </div>
 

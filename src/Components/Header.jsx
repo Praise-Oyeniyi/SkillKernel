@@ -4,10 +4,10 @@ import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <header className="row">
-        <nav className="container navbar navbar-expand-lg shadow-sm px-3 px-md-5 py-md-3">
-          <div className="container-fluid">
-            <a className="navbar-brand px-md-3 text-danger logo fw-semibold" href="#">SkillKernel</a>
+    <header className="mx-auto shadow-sm">
+        <nav className="container mx-auto navbar navbar-expand-lg  px-3 px-md-0 py-md-3">
+          <div className="contain d-flex ps-md-0 justify-content-between align-items-center">
+            <a className="navbar-brand px-md-3 ps-md-0 text-danger logo fw-semibold" href="#">SkillKernel</a>
             
             
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@ const Header = () => {
 
 
              
-            <div className="collapse navbar-collapse  " id="navbarSupportedContent">
+            <div className="collapse navbar-collapse me-md-5" id="navbarSupportedContent">
               <ul className="navbar-nav mb-2 mb-lg-0  col-auto fw-bold">
                 <li className="nav-item dropdown mt-3 mt-md-0">
                   <a className="nav-link dropdown-toggle shadow-lg rounded-2 px-3 bg-danger text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

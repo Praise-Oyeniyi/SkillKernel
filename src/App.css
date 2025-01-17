@@ -231,4 +231,12 @@ main .container{
   .flashcard-col, .footer-input{
     min-width: 100%;
   }
+  .container .contain{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+  }
 }
